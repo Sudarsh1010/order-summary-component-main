@@ -23,16 +23,20 @@
 body {
   font-family: "Red Hat Display", sans-serif;
   font-size: 16px;
-  margin: 0 auto;
   text-align: center;
   background-color: var(--Pale-blue);
+  background-image: url(/images/pattern-background-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .container {
   border-radius: 0.5rem;
   background-color: white;
-  margin: 4.5rem 3rem 3rem;
+  margin: 4.5rem auto 3rem;
   border-radius: 1rem;
+  max-width: 300px;
+  width: 100%;
 }
 
 /* card banner */
@@ -137,9 +141,15 @@ body {
 }
 
 /* media queries */
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 450px) {
+  body {
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 100vh;
+  }
   .container {
-    margin: 10rem auto 10rem;
+    margin: 6.5rem auto 10rem;
     max-width: 450px;
     width: 100%;
   }
