@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+:root {
+  /* ### Primary */
+
+  --Pale-blue: hsl(225, 100%, 94%);
+  --Bright-blue: hsl(245, 75%, 52%);
+  --head: hsl(229, 35%, 21%);
+
+  /* ### Neutral */
+
+  --Very-pale-blue: hsl(225, 100%, 98%);
+  --Desaturated-blue: hsl(224, 23%, 55%);
+  --Dark-blue: hsl(223, 47%, 23%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: var(--Pale-blue);
+}
+
+.container {
+  border-radius: 0.5rem;
+  background-color: white;
+  margin: 4.5rem 3rem 3rem;
+  border-radius: 1rem;
+}
+
+/* card banner */
+.hero-image img {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  max-width: 300px;
+  width: 100%;
+}
+
+/* all content below banner */
+.content {
+  padding: 1.25rem;
+}
+
+/* summary */
+.summary {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+/* summary title */
+.summary h2 {
+  margin-bottom: 1rem;
+  font-weight: 900;
+  color: var(--head);
+}
+
+/* summary description */
+.summary p {
+  line-height: 1.25rem;
+  margin-bottom: 0.75rem;
+  font-weight: 500;
+  color: var(--Desaturated-blue);
+}
+
+/* plans */
+.plans {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--Very-pale-blue);
+  padding: 0.75rem;
+  margin-top: 1.5rem;
+  margin-bottom: 2.45rem;
+  border-radius: 0.75rem;
+}
+
+/* plans left div */
+.plans-left {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-weight: 500;
+  color: var(--Desaturated-blue);
+}
+
+/* plans music logo */
+.plans-left img {
+  margin-right: 1.25rem;
+}
+
+/* plans title */
+.plans-left .plan-title {
+  font-weight: 700;
+  color: var(--head);
+}
+
+/* plans change link */
+.plans .change {
+  color: var(--Bright-blue);
+  font-weight: 700;
+}
+
+/* Proceed to Payment btn */
+.btn {
+  margin-bottom: 2.25rem;
+  box-shadow: 0px 20px 30px hsl(224, 23%, 55%, 50%);
+}
+
+.btn a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  background-color: var(--Bright-blue);
+  padding: 1rem 3.75rem;
+  border-radius: 0.5rem;
+}
+
+/* cancel link */
+.cancel {
+  margin-bottom: 0.75rem;
+}
+
+.cancel a {
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--Desaturated-blue);
+}
+
+/* media queries */
+@media screen and (min-width: 375px) {
+  .container {
+    margin: 10rem auto 10rem;
+    max-width: 450px;
+    width: 100%;
+  }
+
+  .hero-image img {
+    max-width: 450px;
+    width: 100%;
+  }
+
+  .content {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .btn a {
+    padding: 1rem 7.25rem;
+  }
+
+  .attribution {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
