@@ -110,6 +110,12 @@ body {
 .plans .change {
   color: var(--Bright-blue);
   font-weight: 700;
+  transition: 0.3s;
+}
+
+.plans .change:hover {
+  color: #766cf1;
+  text-decoration: none;
 }
 
 /* Proceed to Payment btn */
@@ -126,6 +132,11 @@ body {
   background-color: var(--Bright-blue);
   padding: 1rem 3.75rem;
   border-radius: 0.5rem;
+  transition: 0.3s;
+}
+
+.btn a:hover {
+  background-color: #766cf1;
 }
 
 /* cancel link */
@@ -138,6 +149,11 @@ body {
   font-weight: 700;
   text-decoration: none;
   color: var(--Desaturated-blue);
+  transition: 0.3s;
+}
+
+.cancel a:hover {
+  color: var(--head);
 }
 
 /* media queries */
