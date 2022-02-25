@@ -7,7 +7,7 @@ Hey! evryone. I hope everyone doing great.
 ### Links
 
 - Solution URL: [Solution](https://www.frontendmentor.io/solutions/nft-card-using-html-and-css-QnSYD75gJ)
-- Live Site URL: [NFT preview Card](https://nft-preview-card-frontendmentor-proj.netlify.app/)
+- Live Site URL: [NFT preview Card](https://www.frontendmentor.io/solutions/order-summary-card-html-css-mobile-first-eQ1N6b5Aw)
 
 ## Author
 
